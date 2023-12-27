@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 김채영 - churaumi okinawa </title>
+    <link rel="icon" href="./images/icons8-aquarium.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fullpage.min.css">
+
+    <script src="./script/jquery-1.11.3.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/swiper.min.js"></script>
+    <!-- swiper plugin - js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- #wrap>header.headerInner -->
+    <div id="wrap">
+        <header>
+            <div class="headerInner">
+                <!-- h1.logo>a>img -->
+                <h1 class="logo"><a href="#"><img src="./images/icon-jellyfish-2.svg" alt="로고"></a></h1>
+                <!-- ul.menu>li*5>a{MENU$} -->
+                <ul class="menu">
+                    <li><a href="#">이용안내</a>
+                        <ul class="submenu">
+                            <li><a href="#">영업시간&middot;휴업일</a></li>
+                            <li><a href="#">관내 서비스 가이드</a></li>
+                            <li><a href="#">입장료</a></li>
+
+                            <li><a href="#">오시는 길&middot;주차장</a></li>
+                            <li><a href="#">자주 하는 질문</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">시설안내</a>
+                        <ul class="submenu">
+                            <li><a href="#">수족관 주변 에리어</a></li>
+                            <li><a href="#">해양박공원 안내</a></li>
+                            <li><a href="#">관내 맵</a></li>
+                            <li><a href="#">레스토랑&middot;숍</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">단체안내</a>
+                        <ul class="submenu">
+                            <li><a href="#">일반 단체</a></li>
+                            <li><a href="#">학교 할인</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">프로그램안내</a>
+                        <ul class="submenu">
+                            <li><a href="#">수족관 내 프로그램</a></li>
+                            <li><a href="#">수족관 주변 프로그램</a></li>
+                            <li><a href="#">해양박공원 시설 내 프로그램</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">조사연구활동</a>
+                        <ul class="submenu">
+                            <li><a href="#">조사연구활동</a></li>
+                            <li><a href="#">생물번식 연구 활동</a></li>
+                            <li><a href="#">제 1종 동물취급업에 관한 표시</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="bg"></div>
+            </div>
+        </header>
+            <!-- video -->
+        <section class="video">
+            <video src="./images/Aquarium_video.mp4" autoplay muted loop></video>
+            <div class="videobox">
+                <h2>바다의 숨결을 느끼고
+                    <br>심연의 아름다움을 만나다
+                </h2>
+                <p>환영합니다
+                    <br>오키나와 츄라우미 수족관!
+                </p>
+            </div>
+        </section>
+            <!-- introduce -->
+        <section class="introduce">
+            <div class="input">
+                <h3>물 속 신비와 아름다움의 향연,<br>오키나와 츄라우미 수족관에서 펼쳐지는 특별한 경험.</h3>
+                <ul class="miniImg">
+                    <li class="fadeinBottom"><a href="#"><img src="./images/minibanner_4c.jpg" alt="배너1">
+                            <div>
+                                1F<br>심해 여행
+                                <span class="inbox">
+                                    <i><br>오키나와의 심해를 재현하다</i>
+                                </span>
+                            </div>
+                        </a></li>
+
+                    <li class="fadeinBottom"><a href="#"><img src="./images/minibanner_3c.jpg" alt="배너2">
+                            <div>
+                                2F<br>쿠로시오 여행
+                                <span class="inbox">
+                                    <i><br>회유어들의 다이나믹한 세계</i>
+                                </span>
+                            </div>
+                        </a></li>
+                    <li class="fadeinBottom"><a href="#"><img src="./images/minibanner_2c.jpg" alt="배너3">
+                            <div>
+                                3F<br>산호초 여행
+                                <span class="inbox">
+                                    <i><br>생명력 넘치는 색채의 세계</i>
+                                </span>
+                            </div>
+                        </a></li>
+                    <li class="fadeinBottom"><a href="#"><img src="./images/minibanner_1c.jpg" alt="배너4">
+                            <div>
+                                4F<br>대해로의 초대
+                                <span class="inbox">
+                                    <i><br>만남과 발견의 여행</i>
+                                </span>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+        </section>
+            <!-- main -->
+        <main>
+            <!-- 메인슬라이드 -->
+            <section id="main_slides">
+                <div class="tobInner">
+                    <h4>푸른 바다가 담은 아름다운 이야기를 <br> 여러분께 선사합니다.</h4>
+                </div>
+                <h2 class="blind">메인슬라이드</h2>
+                <div class="swiper mySwiper">
+                    <!-- 스와이퍼 슬라이드 -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                                <li>
+                                    <p>츄라우미 생물도감</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li>
+                                    <p>생물번식 연구활동</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li>
+                                    <p>조사연구활동</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- 인디케이터 -->
+                    <div class="swiper-pagination slides-pagenation"></div>
+                    <!-- 이전,다음버튼 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+        </main>
+        <!-- swiper slide -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            // swiper plugin
+            var swiper = new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+            });
+            // slick plugin
+            $(function () {
+                $(".banner_slider").slick({
+                    autoplay: true,
+                    autoplaySpeed: 1000,
+                    infinite: true,
+                    slidesToShow: 5,
+                    dots: false,
+                    focusOnSelect: true,
+                    arrows: true,
+                    conterPadding: '120px',
+                    centerMode: true
+                });
+            });
+        </script>
+        <!-- footer -->
+        <footer>
+            <div class="footerInner">
+                <div class="bottom">
+                    <div class="bemenu">
+                        <ul>
+                            <li><a href="#">사이트 맵</a></li>
+                            <li><a href="#">저작권 및 링크</a></li>
+                            <li><a href="#">개인정보 보호정책</a></li>
+                            <li>
+                                <p>&copy; Okinawa Churaumi Aquarium</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="./images/sns/facebook.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="./images/sns/instagram.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="./images/sns/youtube.png" alt="유튜브"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
